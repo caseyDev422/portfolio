@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-04-03T15:04:19.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.5.6" etag="4Quk7pKgGcyL4GcpdNmx" type="github"><diagram id="OXvwbAZ5lMVRYjDM6E-u">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-03T15:27:40.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="vinJgqqxqY27qs37CLOZ" version="14.5.6" type="github">
+  <diagram id="OXvwbAZ5lMVRYjDM6E-u" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" width="760" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-2" value="Home about contact resume projects (hamburger menu for responsiveness)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="750" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-4" value="Sean Casey" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="100" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-5" value="Home Page details&lt;br&gt;include short intro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="275" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-6" value="light/dark mode switch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43" y="600" width="765" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-8" value="About details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="720" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-9" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="110" as="sourcePoint" />
+            <mxPoint x="350" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-11" value="downloadable pdf?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1010" width="765" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-13" value="projects, but may put on another seperate page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1100" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-14" value="email address&lt;br&gt;social platforms (linkedin, github, maybe facebook for business?)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50.5" y="950" width="750" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-15" value="email address&lt;br&gt;social platforms (linkedin, github, maybe facebook for business?)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1300" width="750" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8EaxrFjU9DnUJVwzOqVJ-16" value="back button if on seperate page?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1020" width="50" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
