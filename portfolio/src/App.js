@@ -1,6 +1,10 @@
 
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
+import About from './components/About';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 class App extends Component {
   render() {
@@ -11,7 +15,9 @@ class App extends Component {
             integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
             crossorigin="anonymous"></link>
       </header>
-        <Header />
+      <Header />
+      
+        
         <p>Sean Casey</p>
       </div>
     )
