@@ -15,7 +15,24 @@ class App extends Component {
             integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
             crossorigin="anonymous"></link>
       </header>
-      <Header />
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path='/about'>
+            <About />
+          </Route>
+
+          <Route exact path='/contact'>
+            <Contact />
+          </Route>
+
+          <Route exact path='/projects'>
+            <Projects />
+          </Route>
+
+        </Switch>
+      </Router>
+      
       
         
         <p>Sean Casey</p>
