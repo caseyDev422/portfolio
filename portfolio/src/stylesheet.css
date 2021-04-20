@@ -1,0 +1,12 @@
+.footer {
+    color: black;
+}
+
+.footerContainer {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.githubIcon {
+    color: black !important;
+}

@@ -5,6 +5,8 @@ import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
+import './stylesheet.css';
 
 class App extends Component {
   render() {
@@ -13,29 +15,28 @@ class App extends Component {
       <header>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
             integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
-            crossorigin="anonymous"></link>
+            crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+            crossorigin="anonymous"/>
       </header>
       <Router>
         <Header />
         <Switch>
-          <Route exact path='/about'>
+          <Route  path='/about' exact component={About}>
             <About />
           </Route>
-
-          <Route exact path='/contact'>
+        </Switch>
+          <Route exact path='/contact' component={Contact}>
             <Contact />
           </Route>
 
-          <Route exact path='/projects'>
+          <Route exact path='/projects' component={Projects}>
             <Projects />
           </Route>
-
-        </Switch>
       </Router>
-      
-      
-        
-        <p>Sean Casey</p>
+
+      <Footer />
       </div>
     )
   }
