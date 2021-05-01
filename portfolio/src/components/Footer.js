@@ -10,7 +10,7 @@ export default class Projects extends Component {
                     
                     <a target="_blank" rel="noopener noreferrer" 
                     href="https://www.linkedin.com/in/sean-casey-b0b1ba170?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BN59q9dZ3S%2BSjT1eemnbByA%3D%3D">
-                    <i class="fab fa-linkedin"></i></a>
+                    <i className="fab fa-linkedin"></i></a>
                 </footer>
             </div>
            

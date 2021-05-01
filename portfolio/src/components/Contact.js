@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import emailjs from 'emailjs-com';
+
+/*
+service_4ff5fxy <-- serviceID
+template_yyth07g <-- template id
+user_ROqvVXY0ESumI3QWip8FQ <-- id needed for emailJS
+*/
 
 export default class Contact extends Component {
     constructor(props) {
         super(props);
-        this.state = this.initState;
+        this.state = this.initState; 
         this.handleChange = this.handleChange.bind(this);
     };
 
@@ -25,7 +32,17 @@ export default class Contact extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
         this.initState();
-        console.log(this.state.firstName + this.state.lastName + this.state.email + this.state.response);
+
+        const personInfo = {
+            fName: this.state.firstName,
+            lName: this.state.lastName,
+            email: this.state.email,
+            response: this.state.response
+        };
+        emailjs.send('service_4ff5fxy', 'template_yyth07g', personInfo, 'user_ROqvVXY0ESumI3QWip8FQ').then((res) => {
+            res.status === 200 ? console.log('sent successfully') : console.error('something went wrong');
+        })
+        console.log(personInfo);
     }
 
     render() {
@@ -51,10 +68,7 @@ export default class Contact extends Component {
                         </div>
                         <button type="submit" className="btn btn-primary">Submit</button>
                 </form>
-        
-               
             </div>
-            
         )
     }
 }
