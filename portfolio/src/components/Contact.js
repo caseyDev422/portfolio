@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
 import emailjs from 'emailjs-com';
 
-/*
-service_4ff5fxy <-- serviceID
-template_yyth07g <-- template id
-user_ROqvVXY0ESumI3QWip8FQ <-- id needed for emailJS
-*/
-
 export default class Contact extends Component {
     constructor(props) {
         super(props);
