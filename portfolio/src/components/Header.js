@@ -2,6 +2,7 @@ import { Component } from "react";
 
 class Header extends Component {
     render() {
+        // will probably have an s3 bucket to download resume from
         return(
            <header>
                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -10,7 +11,7 @@ class Header extends Component {
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
+                    <ul className="navbar-nav mx-auto">
                         <li className="nav-item">
                         <a className="nav-link" href="/">About</a>
                         </li>
@@ -18,7 +19,8 @@ class Header extends Component {
                         <a className="nav-link" href="/contact">Contact</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="#" aria-disabled="true">Resume</a>
+                        
+                        <a className="nav-link">Resume</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link" href="/projects" aria-disabled="true">Projects</a>
