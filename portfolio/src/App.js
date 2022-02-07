@@ -6,7 +6,6 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import Home from './components/Home';
 import './stylesheet.css';
 
 class App extends Component {
@@ -24,10 +23,7 @@ class App extends Component {
       <Router>
         <Header />
         <Switch>
-          <Route path='/' exact component={Home}>
-            <Home />
-          </Route>
-          <Route  path='/about' exact component={About}>
+          <Route  path='/' exact component={About}>
             <About />
           </Route>
         </Switch>
