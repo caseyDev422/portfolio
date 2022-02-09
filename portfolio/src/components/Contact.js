@@ -33,7 +33,7 @@ export default class Contact extends Component {
             email: this.state.email,
             response: this.state.response
         };
-        emailjs.send('service_4ff5fxy', 'template_yyth07g', personInfo, 'user_ROqvVXY0ESumI3QWip8FQ').then((res) => {
+        emailjs.send('service_30yihq7', 'template_yyth07g', personInfo, 'user_ROqvVXY0ESumI3QWip8FQ').then((res) => {
             res.status === 200 ? console.log('sent successfully') : console.error('something went wrong');
         })
         console.log(personInfo);
@@ -46,7 +46,7 @@ export default class Contact extends Component {
                     <div className="form-group">
                     <label for="emailInput">Email Address:</label>
                         <input type="email" name="email" className="form-control contact-input" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.handleChange} placeholder="Email" />
-                        <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <small id="emailHelp" className="form-text">We'll never share your email with anyone else.</small>
                     </div>
                     <div className="form-group">
                         <label for="firstName">First Name:</label>
