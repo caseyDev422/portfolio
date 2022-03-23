@@ -33,6 +33,11 @@ export default class Contact extends Component {
             email: this.state.email,
             response: this.state.response
         };
+
+        /**
+         * Bad practice
+         * The hard coded values need to be set somewhere as secret keys
+         */
         emailjs.send('service_30yihq7', 'template_yyth07g', personInfo, 'user_ROqvVXY0ESumI3QWip8FQ').then((res) => {
             res.status === 200 ? console.log('sent successfully') : console.error('something went wrong');
         })

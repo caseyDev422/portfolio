@@ -27,11 +27,11 @@ class App extends Component {
             <About />
           </Route>
         </Switch>
-          <Route exact path='/contact' exact component={Contact}>
+          <Route exact path='/contact' component={Contact}>
             <Contact />
           </Route>
 
-          <Route exact path='/projects' exact component={Projects}>
+          <Route exact path='/projects' component={Projects}>
             <Projects />
           </Route>
       </Router>
