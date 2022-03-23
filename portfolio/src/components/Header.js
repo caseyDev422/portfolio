@@ -20,7 +20,7 @@ class Header extends Component {
                         </li>
                         <li className="nav-item">
                         
-                        <a className="nav-link">Resume</a>
+                        <a className="nav-link" href="./Sean_Casey_Resume.pdf" target="_blank" download>Resume</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link" href="/projects" aria-disabled="true">Projects</a>
